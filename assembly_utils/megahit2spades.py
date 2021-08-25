@@ -17,7 +17,7 @@ if __name__ == '__main__':
 	par = read_params(sys.argv)
 
 	f = []
-	fid = open(par['inp_f'], "rU")
+	fid = open(par['inp_f'], "r")
 	for record in SeqIO.parse(fid,'fasta'):
 		f.append(record)
 	fid.close()

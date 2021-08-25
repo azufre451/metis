@@ -3,7 +3,6 @@
 from Bio import SeqIO
 from Bio.Seq import Seq
 from Bio.SeqRecord import SeqRecord
-from Bio.Alphabet import IUPAC
 import argparse,sys
 
 parser = argparse.ArgumentParser(description="Search and extract sequences from FASTX file")
